@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: yes
+
+  tasks:
+    - name: creating a file
+      cmd: touch aws.txt
